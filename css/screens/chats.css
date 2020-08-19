@@ -1,0 +1,9 @@
+.user-component-avatar-m {
+  width: 55px;
+  height: 55px;
+  border-radius: 22px;
+}
+
+.user-component-column-chat {
+  margin-top: -15px;
+}
