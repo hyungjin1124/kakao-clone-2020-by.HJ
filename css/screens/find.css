@@ -1,0 +1,143 @@
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10px;
+  padding-bottom: 15px;
+}
+
+.find-icons-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #2f363e;
+}
+
+.find-icons-icon i {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.nav__notification-cog {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  position: absolute;
+  right: -5px;
+  top: -5px;
+}
+
+.screen-header__icon {
+  position: relative;
+}
+
+.recommended-friends {
+  padding-top: 15px;
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+  color: var(--font-color);
+}
+
+.recommended-friends span {
+  display: block;
+  text-align: center;
+  margin: 100px 0px;
+}
+
+.recommended-friends h6 {
+  font-size: 14px;
+}
+
+.open-chat-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.open-chat-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.open-chat-post-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.open-chat-post-member img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.open-chat-post-member {
+  display: flex;
+  align-items: center;
+}
+
+.open-chat-header {
+  padding-top: 15px;
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+}
+
+.open-chat-header h4 {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.open-chat-header span {
+  font-size: 14px;
+}
+
+.open-chat-post-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.open-chat-post-hashtag {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: var(--font-color);
+  margin-bottom: 5px;
+}
+
+.open-chat-post-member__count {
+  color: var(--font-color);
+  font-size: 14px;
+}
+
+.divider {
+  width: 1px;
+  height: 15px;
+  margin: 0px 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.open-chat-post-member__status {
+  font-size: 14px;
+  color: #ff83cf;
+}
+
+.open-chat-post-photo {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+}
+
+.open-chat-post-heart__count {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  position: absolute;
+  border-radius: 20px;
+  bottom: 10px;
+  right: 5px;
+  font-size: 12px;
+  padding: 5px 8px;
+}
+
+.open-chat-post-heart__count span {
+  margin-left: 5px;
+}
