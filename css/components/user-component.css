@@ -11,7 +11,7 @@
 }
 
 .user-component-text {
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .user-component-title {
@@ -35,4 +35,8 @@
   color: rgba(0, 0, 0, 0.4);
   margin-bottom: 8px;
   margin-top: -8px;
+}
+
+.user-component-subtext {
+  display: flex;
 }
