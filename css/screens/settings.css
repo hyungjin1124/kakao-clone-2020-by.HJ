@@ -1,0 +1,22 @@
+.settings__setting {
+  font-size: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings__setting i {
+  margin-right: 20px;
+  opacity: 0.8;
+}
+
+.settings__setting:nth-child(3) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.settings__category-subtitle {
+  font-size: 18px;
+  opacity: 0.7;
+}
